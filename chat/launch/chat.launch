@@ -1,4 +1,4 @@
 <launch>
-  <node name="listener" pkg="chat2" type="listener.py" output="screen"/>
-  <node name="talker" pkg="chat2" type="talker.py" output="screen"/>
+  <node name="listener" pkg="chat" type="listener.py" output="screen"/>
+  <node name="talker" pkg="chat" type="talker.py" output="screen"/>
 </launch>
