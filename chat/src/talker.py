@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import rospy
-from chat2.msg import usermsg
+from chat.msg import usermsg
 
 rospy.init_node('talker')
 pub = rospy.Publisher('chatter', usermsg)
